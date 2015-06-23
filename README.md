@@ -33,6 +33,7 @@ and output by using ERROR("sucker error %d %s %f", 1, "hello", 3.14),
 FATAL("sucker fatal %d %s %f", 1, "hello", 3.14).
 
 loglevel   data      time         file:line  ThreadID     message input by user
+
 ERROR   2015-06-22 06:42:05:510 log.cpp:136 3040992064  sucker error 1 hello 3.140000
 FATAL   2015-06-22 06:42:05:510 log.cpp:136 3040992064  sucker fatal 1 hello 3.140000
 ERROR   2015-06-22 06:42:05:511 log.cpp:136 3049384768  sucker error 1 hello 3.140000
